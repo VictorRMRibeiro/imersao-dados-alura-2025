@@ -1,7 +1,3 @@
-#baixar todas as bibliotecas de uma vez
-#cria um arquivo txt e coloque todas as bibliotecas: nome_biblioteca==versão que vc queira da biblioteca
-#pip install -r nome_arquivo.txt
-
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -139,5 +135,6 @@ with col_graf4:
 
 # --- Tabela de Dados Detalhados ---
 st.subheader("Dados Detalhados")
+
 
 
